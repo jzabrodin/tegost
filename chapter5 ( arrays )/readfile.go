@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	file, error := os.Open("/home/yevgen/go/src/test/chapter5/data.txt")
+	file, error := os.Open("/home/yevgen/go/src/test/chapter5 ( arrays )/data.txt")
 
 	if error != nil {
 		log.Fatal(error)
